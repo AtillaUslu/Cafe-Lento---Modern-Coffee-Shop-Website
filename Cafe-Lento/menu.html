@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Menü | Cafe Lento</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-white text-gray-800 font-sans">
+
+  <!-- Navbar -->
+  <nav class="flex justify-between items-center p-4 shadow-md bg-white">
+    <h1 class="text-2xl font-bold text-gray-800">Cafe Lento</h1>
+    <ul class="flex space-x-6">
+      <li><a href="index.html" class="hover:text-orange-500">Anasayfa</a></li>
+      <li><a href="about.html" class="hover:text-orange-500">Hakkımızda</a></li>
+      <li><a href="menu.html" class="hover:text-orange-500 font-semibold text-orange-500">Menü</a></li>
+      <li><a href="gallery.html" class="hover:text-orange-500">Galeri</a></li>
+      <li><a href="contact.html" class="hover:text-orange-500">İletişim</a></li>
+    </ul>
+  </nav>
+
+  <!-- Menü Başlık -->
+  <section class="max-w-5xl mx-auto p-8">
+    <h2 class="text-4xl font-bold text-center mb-8">Menümüz</h2>
+
+    <!-- Kahveler -->
+    <h3 class="text-2xl font-semibold mb-4">Kahveler</h3>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-10">
+      <div class="border p-4 rounded shadow-sm hover:shadow-lg transition">
+        <h4 class="text-xl font-bold mb-2">Latte</h4>
+        <p class="text-sm text-gray-600 mb-1">Yumuşak içimli, sütlü espresso karışımı.</p>
+        <span class="font-semibold text-orange-500">45₺</span>
+      </div>
+      <div class="border p-4 rounded shadow-sm hover:shadow-lg transition">
+        <h4 class="text-xl font-bold mb-2">Americano</h4>
+        <p class="text-sm text-gray-600 mb-1">Yoğun espresso'nun sıcak su ile dengelenmiş hali.</p>
+        <span class="font-semibold text-orange-500">40₺</span>
+      </div>
+      <div class="border p-4 rounded shadow-sm hover:shadow-lg transition">
+        <h4 class="text-xl font-bold mb-2">Cold Brew</h4>
+        <p class="text-sm text-gray-600 mb-1">12 saat demlenmiş soğuk kahve keyfi.</p>
+        <span class="font-semibold text-orange-500">55₺</span>
+      </div>
+    </div>
+
+    <!-- Tatlılar -->
+    <h3 class="text-2xl font-semibold mb-4">Tatlılar</h3>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+      <div class="border p-4 rounded shadow-sm hover:shadow-lg transition">
+        <h4 class="text-xl font-bold mb-2">Cheesecake</h4>
+        <p class="text-sm text-gray-600 mb-1">Frambuaz soslu klasik cheesecake.</p>
+        <span class="font-semibold text-orange-500">60₺</span>
+      </div>
+      <div class="border p-4 rounded shadow-sm hover:shadow-lg transition">
+        <h4 class="text-xl font-bold mb-2">Brownie</h4>
+        <p class="text-sm text-gray-600 mb-1">Yoğun çikolatalı, ev yapımı brownie.</p>
+        <span class="font-semibold text-orange-500">50₺</span>
+      </div>
+      <div class="border p-4 rounded shadow-sm hover:shadow-lg transition">
+        <h4 class="text-xl font-bold mb-2">Tiramisu</h4>
+        <p class="text-sm text-gray-600 mb-1">Kahveli kremasıyla İtalyan klasiği.</p>
+        <span class="font-semibold text-orange-500">58₺</span>
+      </div>
+    </div>
+  </section>
+
+</body>
+</html>
